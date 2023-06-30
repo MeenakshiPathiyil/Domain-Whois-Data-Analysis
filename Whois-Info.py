@@ -16,6 +16,7 @@ domain_stripped = domain[0].apply(lambda x: x.strip())
 # Apply the col_whois function to each element in the domain_stripped series
 contents_whois = domain_stripped.apply(col_whois)
 
+
 # print (contents_whois)
 
 user_domain = input("Enter the domain name: ")
