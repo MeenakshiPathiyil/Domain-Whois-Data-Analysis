@@ -19,7 +19,7 @@ contents_whois = domain_stripped.apply(keys_whois)
 
 df = pd.DataFrame(columns=contents_whois[0], dtype=object)
 
-# print (df)
+print (df)
 
 # Define a function to retrieve values from WHOIS for a given domain
 def values_whois(domain):
