@@ -9,7 +9,7 @@ def keys_whois(domain):
 
 
 # Read the domain.txt file into a DataFrame
-domain = pd.read_csv('domain.txt', sep=" ", header=None)
+domain = pd.read_csv('domain.csv', sep=" ", header=None)
 
 # Apply the strip function to each element in the domain column
 domain_stripped = domain[0].apply(lambda x: x.strip())
