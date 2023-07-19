@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file 'whois-db-download-info-sample.csv' into a DataFrame called 'df'
-df = pd.read_csv('whois-db-download-info-sample.csv')
+df = pd.read_csv('domain.csv')
 
 print(df)
 
