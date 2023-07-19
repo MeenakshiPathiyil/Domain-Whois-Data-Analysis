@@ -19,7 +19,7 @@ contents_whois = domain_stripped.apply(keys_whois)
 
 df = pd.DataFrame(columns=contents_whois[0], dtype=object)
 
-print (df)
+#print (df)
 
 # Define a function to retrieve values from WHOIS for a given domain
 def values_whois(domain):
@@ -39,6 +39,8 @@ i = 0
 while i < length:
     df.loc[i] = content_whois[i]  # Assign the WHOIS values to the corresponding row in the DataFrame 'df'
     i += 1  # Increment the counter variable
+
+print(df)
 
 # Filter the DataFrame 'df' to create a new DataFrame 'country_df' containing only rows where the 'country' column is 'US'
 country_df = df[df["country"] == 'US']
