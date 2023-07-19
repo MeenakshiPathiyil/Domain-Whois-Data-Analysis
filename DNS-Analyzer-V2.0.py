@@ -3,6 +3,8 @@ import pandas as pd
 # Read the CSV file 'whois-db-download-info-sample.csv' into a DataFrame called 'df'
 df = pd.read_csv('whois-db-download-info-sample.csv')
 
+print(df)
+
 # Filter the DataFrame 'df' to create a new DataFrame 'df_registrar' containing only rows where the 'registrarName' column is 'GoDaddy.com, LLC'
 df_registrar = df[df["registrarName"] == 'GoDaddy.com, LLC']
 
