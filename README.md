@@ -25,14 +25,14 @@ To use this program, you need to have Python 3.7 installed on your machine. Foll
    `pip install -r requirements.txt`
 
 ## Usage
-1. Prepare a text or CSV file with a list of domain names, with each domain on a new line or in a seperate row.
-2. Run the program by executing the following command.
+1. Prepare a CSV file called domain.csv with a list of domain names, with each domain in a seperate row.
+2. This file must be there in the same folder as the python program.
+3. Run the program by executing the following command.
 
-   `python3 <DNS-Analyzer-Vx.0.py> -f <path/to/domain_file.txt>`
+   `python3 <DNS-Analyzer-Vx.0.py>`
 
-3. The program will retrieve the 'whois' data for each domain and create a dataframe.
-4. You can apply filters to the dataframe to extract useful information relevant to information security. Examples of filters include domain age, registrar, expiry date, etc.
-5. Export the filtered data or the complete dataframe as needed.
+4. The program will retrieve the 'whois' data for each domain and create a dataframe.
+5. You can export the complete dataframe and apply filters to it to extract useful information and further analysis. Examples of filters include domain registrar, creation date, etc.
 
 ## Contribution
 Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
