@@ -28,7 +28,7 @@ To use this program, you need to have Python 3.7 installed on your machine. Foll
 1. Prepare a text or CSV file with a list of domain names, with each domain on a new line or in a seperate row.
 2. Run the program by executing the following command.
 
-   `python <DNS-Analyzer-Vx.0.py> -f <path/to/domain_file.txt>`
+   `python3 <DNS-Analyzer-Vx.0.py> -f <path/to/domain_file.txt>`
 
 3. The program will retrieve the 'whois' data for each domain and create a dataframe.
 4. You can apply filters to the dataframe to extract useful information relevant to information security. Examples of filters include domain age, registrar, expiry date, etc.
