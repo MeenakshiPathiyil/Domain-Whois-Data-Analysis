@@ -2,7 +2,7 @@
 This program allows you to analyze domain names by retrieving 'whois' data and creating a dataframe for further analysis. It is designed to help users filter out useful information from the collected data, particularly in the context of information security.
 
 ## Features
-* **Domain Input**: Accepts a text or CSV file containing a list of domain names.
+* **Domain Input**: Accepts a CSV file containing a list of domain names.
 * **Whois Data Retrieval**: Queries the WHOIS database to fetch information about the provided domains.
 * **Dataframe Creation**: Generates a dataframe with relevant 'whois' data for analysis.
 * **Flexible Filtering**: Enables users to filter the dataframe based on specific criteria.
