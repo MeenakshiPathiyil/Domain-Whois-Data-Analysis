@@ -35,7 +35,7 @@ To use this program, you need to have Python 3.7 installed on your machine. Foll
 5. You can export the complete dataframe and apply filters to it to extract useful information and further analysis. Examples of filters include domain registrar, creation date, etc.
 
 ## Contribution
-Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
+Contributions to this project are welcome! If you have any suggestions, improvements or bug reports, please open an issue on the GitHub repository.
 
 ## Acknowledgements
 * [**Python Whois Library**](https://pypi.org/project/python-whois/) - Used to retrieve 'whois' data.
